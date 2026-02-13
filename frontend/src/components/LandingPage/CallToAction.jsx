@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 // call to action
 const CallToAction = () => {
   const navigate = useNavigate();
-
+// call to action section with two buttons for trainer and user sign in
   return (
     <div className="relative w-full px-4 md:px-14">
       <section className="bg-gradient-to-r from-indigo-900 via-blue-600 to-pink-900 text-white py-12 md:py-16 text-center rounded-2xl shadow-lg mt-16">
